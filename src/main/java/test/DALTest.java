@@ -1,7 +1,7 @@
 package test;
 
 import dal.IUserDAO;
-import dal.UserDAOImpls134000;
+import dal.UserDAOImpls180557;
 import dal.dto.IUserDTO;
 import dal.dto.UserDTO;
 import org.junit.Assert;
@@ -14,8 +14,8 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
 public class DALTest {
-    //TODO: Indsæt din egen implementering
-    IUserDAO userDAO = new UserDAOImpls134000();
+
+    IUserDAO userDAO = new UserDAOImpls180557();
     @Test
     public void test() {
         try {
